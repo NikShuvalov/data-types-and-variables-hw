@@ -71,10 +71,11 @@ public class Main {
         int divisionResult = numerator / divisor;
         System.out.println(divisionResult);
 
-        int prediction = 3;
+        int prediction = 3; //I predicted that the operation would return the rounded down value since the result was being taken as an integer type.
         if (prediction == divisionResult){
             System.out.println("Correct prediction");
         }
+
         float fnumerator = numerator;
         float fdivisor = divisor;
         float correctedDivisionResult = fnumerator / fdivisor;
